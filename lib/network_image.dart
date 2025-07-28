@@ -9,10 +9,8 @@ class NetworkImageDemo extends StatelessWidget {
       appBar: AppBar(title: Text("Network Image")),
       body: Image.network(
         'https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg',
-        height: 70,
-        width: 400,
-        fit: BoxFit.cover,
-      ),
+        height: 200, width: 200,),
     );
   }
+
 }
