@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'asset_image.dart';
 import 'login.dart';
+import 'multiple_selection.dart';
 import 'network_image.dart';
 
 void main() {
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: LoginView(),
+      home: MultipleSelection(),
       // home: Scaffold(
       //   backgroundColor: Colors.blue,
       //   appBar: AppBar(
