@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_b25/page_view.dart';
 
 import 'asset_image.dart';
+import 'bottom_bar.dart';
 import 'dynamic_list_view.dart';
 import 'grid_view.dart';
 import 'login.dart';
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: GridViewDemo(),
+      home: BottomBarDemo(),
       // home: Scaffold(
       //   backgroundColor: Colors.blue,
       //   appBar: AppBar(
