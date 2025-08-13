@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_b25/page_view.dart';
+import 'package:flutter_b25/tabbar_demo.dart';
 
 import 'asset_image.dart';
 import 'bottom_bar.dart';
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: BottomBarDemo(),
+      home: TabbarDemo(),
       // home: Scaffold(
       //   backgroundColor: Colors.blue,
       //   appBar: AppBar(
